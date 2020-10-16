@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link href="/styles/styles.css" rel="stylesheet">
+    <script src="/scripts/scripts.js" defer></script>
+    <link href="/images/calc-clipart.png" rel="icon">
+</head>
+<body>
+    <div class="calculator-grid">
+        <div class="output">
+            <div class="previous-operand" data-previous-operand></div>
+            <div class="current-operand" data-current-operand></div>
+        </div>
+        <button class="span-two" data-all-clear>Clear</button>
+        <button data-delete class="clears">Del</button>
+        <button data-operation class="operator">÷</button>
+        <button data-number class="number">1</button>
+        <button data-number class="number">2</button>
+        <button data-number class="number">3</button>
+        <button data-operation class="operator">*</button>
+        <button data-number class="number">4</button>
+        <button data-number class="number">5</button>
+        <button data-number class="number">6</button> <!--data-operation && data-number is used so classes are not mixed up-->
+        <button data-operation class="operator">+</button>
+        <button data-number class="number">7</button>
+        <button data-number class="number">8</button>
+        <button data-number class="number">9</button>
+        <button data-operation class="operator">-</button>
+        <button data-number class="number">.</button>
+        <button data-number class="number">0</button>
+        <button class="span-two" 
+        style="background-color:rgb(255, 145, 0); color: white;" 
+        data-equals>=</button>
+    </div>
+
+</body>
+</html>
